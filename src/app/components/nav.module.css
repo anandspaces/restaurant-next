@@ -1,0 +1,58 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* position: sticky; */
+  width: 100%;
+  height: 50px;
+  /* background-color: whitesmoke; */
+  padding: 30px;
+  max-width: 100%;
+}
+
+.title{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  /* text-shadow: 1px 1px; */
+  width: 25%;
+  height: 100%;
+}
+
+.title:hover{
+  color: red;
+}
+
+.subtitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.subtitles:hover{
+  color: red;
+}
+
+.buttonWrapper{
+  width:25%;
+}
+
+.button{
+  background-color: rgb(222, 214, 0);
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.button:hover{
+  font-weight: bold;
+}

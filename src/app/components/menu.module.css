@@ -1,0 +1,27 @@
+.menu{
+  display: inline-grid;
+  /* justify-content: space-around; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  padding: 5px;
+}
+
+.card{
+  /* border: 2px dotted black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: fit-content;
+  margin-top: 50px;
+}
+
+.card:hover{
+  box-shadow: none;
+}
+
+.cardImage{
+  width: 100%;
+  padding: 10px;
+}
+
+.cardDescription{
+  padding: 10px;
+}
